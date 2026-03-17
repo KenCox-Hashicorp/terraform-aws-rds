@@ -4,7 +4,3 @@
 provider "random" {}
 
 resource "random_pet" "random" {}
-
-resource "random_id" "r_id_errors" {
-  byte_length = -1
-}
